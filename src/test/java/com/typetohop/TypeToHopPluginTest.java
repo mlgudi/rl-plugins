@@ -1,13 +1,13 @@
-package com.playbackcompanion;
+package com.typetohop;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class PlaybackCompanionPluginTest
+public class TypeToHopPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(PlaybackCompanionPlugin.class);
+		ExternalPluginManager.loadBuiltin(TypeToHopPlugin.class);
 		RuneLite.main(args);
 	}
 }
